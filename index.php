@@ -1,6 +1,17 @@
 
 <!-- ////// 1 ////// -->
 
+<body>
+
+
+<h1>EXERCICES PHP</h1>
+
+<?php
+
+echo '<link href="style.css" rel="stylesheet" type="text/css">'
+
+?>
+
 <?php
 
 $nb1 = 8;
@@ -8,10 +19,16 @@ $nb2 = 14;
 
 ?>
 
+<div class="box">
+
 <h2>N°1 Créer et initialiser deux nombres, calculer leur addition et afficher « l’addition du nombre 1 et du nombre 2 est égale à _____.</h2>
 <p>l’addition du nombre <?= $nb1 ?> et du nombre <?= $nb2 ?> est égale à <?= $nb1 + $nb2 ?></p>
 
+</div>
+
 <!-- ////// 2 ////// -->
+
+<div class="box">
 
 <?php
 
@@ -30,7 +47,11 @@ echo "<h2>N°2 Quels sont les différents types de données en PHP et l’illust
 <p>Ceci est un boolean : <?=  var_dump($bool) ?></p>
 <p>Ceci est un tableau  : <?=  var_dump($tab) ?></p>
 
+</div>
+
 <!-- ////// 3 ////// -->
+
+<div class="box">
 
 <?php 
 
@@ -47,7 +68,11 @@ if($isActive and $troll == "Troll") {
 
 ?>
 
+</div>
+
 <!-- ////// 4 ////// -->
+
+<div class="box">
 
 <?php
 
@@ -61,7 +86,11 @@ echo "<p>{$result}</p>";
 
 ?>
 
+</div>
+
 <!-- ////// 5 ////// -->
+
+<div class="box">
 
 <?php
 
@@ -89,7 +118,11 @@ if ($nombre % $mult_3 == 0) {
 
 ?>
 
+</div>
+
 <!-- ////// 6 ////// -->
+
+<div class="box">
 
 <?php
 
@@ -102,8 +135,11 @@ echo "<h2>N°6 Calculer la valeur absolue d’un nombre ex ($nb1 &  $nb2)</h2>";
 
 <p><p>La valeur absolue de : (<?= $nb1  . " = " . abs($nb1) . " ; " . $nb2  . " = " . abs($nb2) ?>)  </p>
 
+</div>
 
 <!-- ////// 7 ////// -->
+
+<div class="box">
 
 <?php 
 
@@ -120,7 +156,11 @@ echo "Le jour numérique choisi correspond a $reslutatJour";
 
 ?>
 
+</div>
+
 <!-- ////// 8 ////// -->
+
+<div class="box">
 
 <?php
 
@@ -153,7 +193,11 @@ function calcul($val1, $val2) {
 
 ?>
 
+</div>
+
 <!-- ////// N°9 ////// -->
+
+<div class="box">
 
 <?php
 
@@ -180,7 +224,11 @@ function methode($nb1, $nb2, $nb3, $nb4) {
 
 ?>
 
+</div>
+
 <!-- ////// 10 ////// -->
+
+<div class="box">
 
 <?php
 
@@ -211,7 +259,11 @@ echo "<p>Tableau des chiffres impairs : $impairs</p>";
 
 ?>
 
+</div>
+
 <!-- ////// 11 ////// -->
+
+<div class="box">
 
 <?php
 
@@ -237,7 +289,11 @@ echo "<p>Tableau des chiffres impairs : $impairs</p>";
 
 ?>
 
+</div>
+
 <!-- ////// 12 ////// -->
+
+<div class="box">
 
 <?php
 
@@ -248,7 +304,6 @@ echo "<h2>N°12 Ecrire une fonction qui calcule la somme des nombres dans le tab
 
 $result = somme($tabChiffres);
 $result2 = implode(", ", $tabChiffres);
-
 
 echo "<p>Tableau d'origine : $result2";
 echo "<p>Résultat de l'addition de tout les chiffres du tableau : $result";
@@ -261,7 +316,11 @@ function somme($tableau) {
 
 ?>
 
+</div>
+
 <!-- ////// 13 ////// -->
+
+<div class="box">
 
 <?php
 
@@ -282,3 +341,7 @@ function moyenne($tabChiffres) {
 }
 
 ?>
+
+</div>
+
+</body>
