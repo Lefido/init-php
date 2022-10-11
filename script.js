@@ -6,7 +6,6 @@ boxs.forEach(box => {
     box.addEventListener("click", function() {
         suprCenter();
         box.classList.toggle("center")
-
     })
 })
 
@@ -16,6 +15,3 @@ function suprCenter() {
             box.classList.remove("center")
     })
 }
-
-
-

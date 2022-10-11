@@ -10,12 +10,14 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    text-align: center;
     h1 {
         width: 100%;
         padding: 25px;
         text-align: center;
         text-decoration: underline;
     }
+
 
     h2 {
 
@@ -24,6 +26,8 @@ body {
         border-radius: 10px;
          padding: 5px;
          font-size: 20px;
+         margin-bottom: 10px;
+         
      }
      
      p {
@@ -37,29 +41,38 @@ body {
 .box {
     padding: 5px;
     width: 49%;
+    // height: 265px;
     background-color: gray;
     margin: auto;
     border-radius: 10px;
-    transition: 0.5s ease-in-out;
+    transition: 0.2s;
+    position: relative;
 
 }
 
 .box:hover {
     cursor: pointer;
-    box-shadow: 0 0 15px 5px gray;
+    box-shadow: 0 0 15px 5px black;
 
  }
 
  .center {
-    width: 50%;
-    background-color: lightgreen;
     position: fixed;
-    // transform: scale(1.4);
+    z-index: 1;
+    width: 50%;
+    background-color: rgb(226, 226, 150);
+    box-shadow: 5px 5px 10px 5px black;
     top : 50%;
     left: 50%;
-    // margin: auto;
     transform: translate(-50%, -50%);
-    transition: 0.5s ease-in-out;
+    h2 {
+        color: white;
+        background-color: black;
+    }
+
+    p {
+        font-style: italic;
+    }
 
  }
 
