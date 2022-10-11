@@ -250,7 +250,7 @@ $result = somme($tabChiffres);
 $result2 = implode(", ", $tabChiffres);
 
 
-echo "<p>Résultat de l'addition de tout les chiffres du tableau : $result2";
+echo "<p>Tableau d'origine : $result2";
 echo "<p>Résultat de l'addition de tout les chiffres du tableau : $result";
 
 function somme($tableau) {
