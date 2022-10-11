@@ -5,6 +5,7 @@
 }
 
 body {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   gap: 2px;
@@ -15,25 +16,39 @@ body h1 {
   text-align: center;
   text-decoration: underline;
 }
-
-.box {
-  padding: 5px;
-  width: 48%;
-  background-color: gray;
-  margin: auto;
-  border-radius: 10px;
-}
-
-h2 {
+body h2 {
   background-color: black;
   color: white;
   border-radius: 10px;
   padding: 5px;
   font-size: 20px;
 }
-
-p {
+body p {
   padding: 5px;
+}
+
+.box {
+  padding: 5px;
+  width: 49%;
+  background-color: gray;
+  margin: auto;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.box:hover {
+  cursor: pointer;
+  box-shadow: 0 0 15px 5px gray;
+}
+
+.center {
+  width: 70%;
+  background-color: gainsboro;
+  position: absolute;
+  transform: scale(1.4);
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /*# sourceMappingURL=style.css.map */

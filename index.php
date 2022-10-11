@@ -8,7 +8,9 @@
 
 <?php
 
-echo '<link href="style.css" rel="stylesheet" type="text/css">'
+echo '<link href="style.css" rel="stylesheet" type="text/css">';
+
+
 
 ?>
 
@@ -343,5 +345,7 @@ function moyenne($tabChiffres) {
 ?>
 
 </div>
+
+echo '<script src="script.js"></script>';
 
 </body>

@@ -6,10 +6,10 @@
 }
 
 body {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     gap: 2px;
-
     h1 {
         width: 100%;
         padding: 25px;
@@ -17,28 +17,54 @@ body {
         text-decoration: underline;
     }
 
+    h2 {
+
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+         padding: 5px;
+         font-size: 20px;
+     }
+     
+     p {
+         padding: 5px;
+     }
+
+   
+
 }
 
 .box {
     padding: 5px;
-    width: 48%;
+    width: 49%;
     background-color: gray;
     margin: auto;
     border-radius: 10px;
+    transition: 0.2s;
+
 }
 
-h2 {
+.box:hover {
+    cursor: pointer;
+    box-shadow: 0 0 15px 5px gray;
 
-   background-color: black;
-   color: white;
-   border-radius: 10px;
-    padding: 5px;
-    font-size: 20px;
-}
+ }
 
-p {
-    padding: 5px;
-}
+ .center {
+    width: 70%;
+    background-color: gainsboro;
+    position: absolute;
+    transform: scale(1.4);
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  ;
+
+ }
+
+
+
+
 
 
 
