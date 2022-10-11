@@ -33,7 +33,7 @@ body p {
   background-color: gray;
   margin: auto;
   border-radius: 10px;
-  transition: 0.2s;
+  transition: 0.5s;
 }
 
 .box:hover {
@@ -46,9 +46,10 @@ body p {
   background-color: gainsboro;
   position: absolute;
   transform: scale(1.4);
-  top: 30%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
+  transition: 0.5s;
 }
 
 /*# sourceMappingURL=style.css.map */
