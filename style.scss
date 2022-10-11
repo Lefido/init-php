@@ -9,7 +9,7 @@ body {
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    gap: 2px;
+    gap: 10px;
     h1 {
         width: 100%;
         padding: 25px;
@@ -51,12 +51,13 @@ body {
  }
 
  .center {
-    width: 70%;
-    background-color: gainsboro;
-    position: absolute;
+    width: 50%;
+    background-color: lightgreen;
+    position: fixed;
     // transform: scale(1.4);
-    top: 40%;
+    top : 50%;
     left: 50%;
+    // margin: auto;
     transform: translate(-50%, -50%);
     transition: 0.5s ease-in-out;
 
