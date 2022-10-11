@@ -103,19 +103,17 @@ $mult_5 = 5;
 echo "<h2>N°5 Vérifier si le nombre $nombre est un multiple de 3 et de 5.</h2>";
 
 if ($nombre % $mult_5 == 0) {
-    echo "$nombre est un multiple de $mult_5";
+    echo "<p>$nombre est un multiple de $mult_5</p>";
 
 }   else {
-    echo "$nombre n'est pas un multiple de $mult_5";
+    echo "<p>$nombre n'est pas un multiple de $mult_5</p>";
 }
 
-echo "<br>";
-
 if ($nombre % $mult_3 == 0) {
-    echo "$nombre est un multiple de $mult_3";
+    echo "<p>nombre est un multiple de $mult_3</p>";
 
 }   else {
-    echo "$nombre n'est pas un multiple de $mult_3";
+    echo "<p>$nombre n'est pas un multiple de $mult_3</p>";
 }
 
 ?>
@@ -153,8 +151,8 @@ $tab_jour = ["Lundi", "Mardi","Mercredi","Jeudi","Vendredi","Samedi","Dimanche"]
 $choixJour = 2;
 $reslutatJour = $tab_jour[$choixJour-1];
 
-echo "Jour numérique choisi = $choixJour<br>";
-echo "Le jour numérique choisi correspond a $reslutatJour";
+echo "<p>Jour numérique choisi = $choixJour</p>";
+echo "<p>Le jour numérique choisi correspond a $reslutatJour</p>";
 
 ?>
 
@@ -175,7 +173,7 @@ echo "<p>Valeur de départ $nb1, Valeur d'arrivée $nb2</p>";
 
 $reponse = calcul($nb1, $nb2);
 
-echo $reponse;
+echo "<p>$reponse</p>";
 
 function calcul($val1, $val2) {
 
